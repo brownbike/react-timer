@@ -1,0 +1,15 @@
+.top-bar {
+	background-color: $gray;
+
+	ul {
+		background-color: transparent;
+	}
+
+	.menu-text {
+		color: $white;
+	}
+
+	.menu>li>a {
+		display: inline;
+	}
+}
