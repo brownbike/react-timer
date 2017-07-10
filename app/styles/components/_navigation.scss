@@ -11,5 +11,9 @@
 
 	.menu>li>a {
 		display: inline;
+
+		&.active {
+			font-weight: bold;
+		}
 	}
 }
