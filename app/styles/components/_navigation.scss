@@ -1,19 +1,18 @@
+.top-bar, .top-bar ul {
+  background-color: $nav-background;
+}
+
 .top-bar {
-	background-color: $gray;
+  .menu-text {
+    color: $nav-text-color;
+  }
 
-	ul {
-		background-color: transparent;
-	}
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+  }
 
-	.menu-text {
-		color: $white;
-	}
-
-	.menu>li>a {
-		display: inline;
-
-		&.active {
-			font-weight: bold;
-		}
-	}
+  .active-link {
+    font-weight: bold;
+  }
 }
